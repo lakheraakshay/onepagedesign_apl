@@ -1,0 +1,32 @@
+.nav_link{
+    color: rgba(255, 255, 255, 0.2);
+    position: relative;
+    /* border-bottom: transparent; */
+    /* border-image: linear-gradient( 135.22deg, #0E1019 -114.31%, #0E1019 6.31%, #0E1019 63.52%, #0E1019 92.9%) 1 0 100%;; */
+}
+
+.nav_link::before{
+    transition: 300ms;
+    height: 2px;
+    content: "";
+    position: absolute;
+    bottom: 0;
+    margin-top: 20px;
+    background: linear-gradient(135.22deg, #FFF500 -114.31%, #B5EB42 6.31%, #FF00B8 63.52%, #1400FF 92.9%);
+}
+
+.nav_link::before{
+    transition: 300ms;
+    position: absolute;
+    /* border-image: linear-gradient( 135.22deg, #FFF500 -114.31%, #B5EB42 6.31%, #FF00B8 63.52%, #1400FF 92.9%) 1 0 100%; */
+
+}
+
+.nav-link-ltr::before {
+    width: 0%;
+    bottom: 10px;
+  }
+  
+  .nav-link-ltr:hover::before {
+    width: 100%;
+  }

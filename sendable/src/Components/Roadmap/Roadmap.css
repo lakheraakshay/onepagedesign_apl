@@ -1,0 +1,44 @@
+.dashed{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 34px;
+    line-height: 41px;
+
+    text-align: center;
+    letter-spacing: 0.395em;
+
+    color: #FFFFFF;
+
+    transform: rotate(-90deg);
+}
+
+.road_mid{
+    box-sizing: border-box;
+    background-size: cover;
+}
+
+.outer_text{
+    background: linear-gradient(126.47deg, rgba(0, 0, 0, 0.15) 2.17%, rgba(0, 0, 0, 0) 103.39%), linear-gradient(135.22deg, #FFF500 -114.31%, #B5EB42 6.31%, #FF00B8 63.52%, #1400FF 92.9%);
+    border-radius: 150px 36px;
+}
+
+.inner_text{
+    background: rgba(255, 255, 255, 0.25);
+    backdrop-filter: blur(37.349px);
+    border-radius: 100px 20px;
+}
+
+.inner_text h1{
+    backdrop-filter: blur(0);
+}
+
+.outer_text_1{
+    background: linear-gradient(126.47deg, rgba(0, 0, 0, 0.15) 2.17%, rgba(0, 0, 0, 0) 103.39%), linear-gradient(135.22deg, #FFF500 -114.31%, #B5EB42 6.31%, #FF00B8 63.52%, #1400FF 92.9%);
+    border-radius: 36px 150px;
+}
+
+.inner_text_1{
+    background: rgba(255, 255, 255, 0.25);
+    backdrop-filter: blur(37.349px);
+    border-radius: 20px 100px; 
+}

@@ -1,0 +1,44 @@
+.copy{
+    background: linear-gradient(135.22deg, #FFF500 -114.31%, #B5EB42 6.31%, #FF00B8 63.52%, #1400FF 92.9%);
+    border-radius: 34.5px;
+    color: #FFF;
+    top: -16px;
+    position: relative;
+}
+
+.outer_cpy{
+    background-color: #FFF;
+    border-radius: 70px;
+    color: transparent;
+    height: 48px;
+}
+
+.before_about{
+    background: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(67px);
+}
+
+.button_a{
+    background: #FFFFFF;
+    border-radius: 107px;
+}
+
+.outer_aboutUs{
+    background: linear-gradient(135.22deg, #FFF500 -114.31%, #B5EB42 6.31%, #FF00B8 63.52%, #1400FF 92.9%);
+    filter: blur(146px);
+    min-width: 10vw;
+    min-height: 20vh;
+    /* filter: blur(130px); */
+    transform: rotate(180deg);
+    overflow: hidden;
+}
+
+.about_us{
+    position: absolute;
+    top: -28px;
+    margin: 0 auto;
+    border-radius: 30px 20px 80px 30px;
+    background-image: linear-gradient(to right bottom, #a569f1, #b961e5, #ca5ad7, #d753c9, #e24dbb, #f14fa6, #f95692, #fc6281, #f97d6e, #ef9668, #e2ad70, #d5c084);
+    padding: 20px;
+    box-shadow: inset 0 0 20px rgba(255, 255, 255, 0.6);
+}

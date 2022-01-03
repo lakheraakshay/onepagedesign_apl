@@ -1,0 +1,25 @@
+.team_dept{
+    background-size: cover;
+}
+
+.left_block{
+    background: #0E1019;
+    transform: rotate(17.92deg);
+    min-height: 410px;
+    min-width: 20vw;
+    z-index: 888;
+    left: -80px;
+    position: absolute;
+    top: -60px;
+}
+
+.right_block{
+    background: #0E1019;
+    transform: rotate(17.92deg);
+    min-height: 410px;
+    min-width: 20vw;
+    z-index: 888;
+    right: -80px;
+    position: absolute;
+    top: -30px;
+}

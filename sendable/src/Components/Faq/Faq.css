@@ -1,0 +1,31 @@
+.number{
+    background: linear-gradient(135.22deg, #FFF500 -114.31%, #B5EB42 6.31%, #FF00B8 63.52%, #1400FF 92.9%);
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFF;
+}
+
+.operator{
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFF;
+}
+
+.faq_text{
+    color: rgba(255, 255, 255, 0.3);
+}
+
+.bottom_border{
+    min-width: 100%;
+    min-height: 1px;
+    background: rgba(255, 255, 255, 0.1);
+    margin-top: 10px;
+}
